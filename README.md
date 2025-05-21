@@ -4,7 +4,7 @@
 Participants are given a collection of 8,500 news articles with images (the article text is in English, from [GDELT](https://www.gdeltproject.org)).
 Given a randomly selected article, the goal is to build a pipeline for a) image retrieval or b) image generation to provide a fitting image recommendation for a given news article. Depending on the number of participants, the final evaluation event may only make use of  a subset of items.
 The article pool relevant for this final evaluation will be communicated separately.
-Please see the official [MediaEval 2025 website](https://multimediaeval.github.io/editions/2025/tasks/newsimages) for the full task description. 
+Please see the official [MediaEval 2025 website](https://multimediaeval.github.io/editions/2025/tasks/newsimages) for the full task description.
 
 ## Data Description
 | Attribute | Description |
@@ -27,8 +27,8 @@ Example for the group 'UnstableOsmosis':
 
     UnstableOsmosis.zip
 	|_ FLUX
-	|	|_ 37FC359AB91C0DC6D21D270AED0C87E3_UnstableOsmosis_FLUX.png
-	|	|_ …
+	|  |_ 37FC359AB91C0DC6D21D270AED0C87E3_UnstableOsmosis_FLUX.png
+	|  |_ …
 	|_ …
 
 The image format must be PNG, with target dimensions of 460x260 pixels (i.e., landscape orientation).

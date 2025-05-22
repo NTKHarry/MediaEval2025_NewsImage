@@ -10,14 +10,14 @@ Please see the official [MediaEval 2025 website](https://multimediaeval.github.i
 ## Data Description
 The challenge data contains a CSV with the following data on news articles:
 
-| Attribute | Description |
-| - | - |
-| article_id | ID of news article. |
-| article_url | Original URL of the news article. |
-| article_title | Title of the news article (may include lead). |
-| article_tags | Automatically generated tags for main article text. |
-| image_id | ID of news image. |
-| image_url | Original URL of the news image. |
+| Attribute 	| Description 											|
+| ------------- | ----------------------------------------------------- |
+| article_id 	| ID of news article. 									|
+| article_url 	| Original URL of the news article. 					|
+| article_title | Title of the news article (may include lead). 		|
+| article_tags 	| Automatically generated tags for main article text.	|
+| image_id 		| ID of news image. 									|
+| image_url 	| Original URL of the news image. 						|
 
 Furthermore, a folder 'newsimages' containing a copy of all news images is included.
 The name of each JPG files corresponds to the image ID associated with each news article.
@@ -41,7 +41,7 @@ The image format must be PNG, with target dimensions of 460x260 pixels (i.e., la
 This applies to both generated and retrieved images. If you generate the images with tools like ComfyUI and you edit them afterwards (e.g., for cropping), make sure the workflow **remains** embedded.
 
 ## Deadline Summary
-* Data release: June 2
+* Data release: May 23
 * Item pool announcement: August 4 (together with infos on the submission platform)
 * Runs due: September 10
 * Paper submission: October 8

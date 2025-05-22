@@ -2,7 +2,9 @@
 
 ## Task Description
 Participants are given a collection of 8,500 news articles with images (the article text is in English, from [GDELT](https://www.gdeltproject.org)).
-Given a randomly selected article, the goal is to build a pipeline for a) image retrieval or b) image generation to provide a fitting image recommendation for a given news article. Depending on the number of participants, the final evaluation event may only make use of  a subset of items.
+Given a randomly selected article, the goal is to build a pipeline for a) image retrieval or b) image generation to provide a fitting image recommendation for a given news article.
+Depending on the number of participants, the final evaluation event may only make use of a subset of items.
+The article pool relevant for this final evaluation will be communicated separately, together with the information on where to submit your results (see deadlines below).
 Please see the official [MediaEval 2025 website](https://multimediaeval.github.io/editions/2025/tasks/newsimages) for the full task description.
 
 ## Data Description
@@ -26,7 +28,6 @@ You must provide a ZIP file [group_name].zip that is organized as follows:
 [group_name] / [approach_name] / [image_id] + _ + [group_name] + _ + [approach_name].png
 
 Your shubmission should include as **many** image recommendations for the list of requested article IDs as possible.
-The article pool relevant for this final evaluation will be communicated separately (see deadlines below).
 
 Example submission for the group 'UnstableOsmosis':
 
@@ -41,7 +42,7 @@ This applies to both generated and retrieved images. If you generate the images 
 
 ## Deadline Summary
 * Data release: June 2
-* Item pool announcement: August 4
+* Item pool announcement: August 4 (together with infos on the submission platform)
 * Runs due: September 10
 * Paper submission: October 8
 * MediaEval workshop: October 25-26 (attendance required, in-person or online)

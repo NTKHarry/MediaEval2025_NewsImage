@@ -34,7 +34,7 @@ You must provide a ZIP file [group_name].zip that is organized as follows:
 Use the group name with which you have registered for the task.
 For each submitted approach/run, please provide a **unique name**.
 Use the prefix a to indicate the type ("RET" for retrieval approach, "GEN" for image generation) and a suffix for the subtask ("LARGE" covering all images and "SMALL" the pre-defined subset).
-Your submission can include multiple approaches, but they all need to be properly documented in the [working notes paper](https://multimediaeval.github.io/editions/2025).
+Your submission can include multiple approaches, but they all need to be properly documented in the [working notes paper](https://drive.google.com/drive/folders/1DNhxIeACfsmg6rrdgQZ22BbRtYE8ioYI).
 
 Each approach must include **precisely one** image recommendation for a given image ID.
 It should cover and include **as many** many images as possible.

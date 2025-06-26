@@ -6,7 +6,8 @@ Participants are given a collection of 8,500 news articles with images (the arti
 Given a randomly selected article, the goal is to build a pipeline for (1) image retrieval or (2) image generation to provide a fitting image recommendation for a given news article.
 Depending on the number of participants, the final evaluation event may only make use of subsets of the overall item pool.
 The relevant article IDs for the final evaluation will be communicated separately via email to all **registered groups**, together with the information on where to submit your results (see deadlines below).
-Please see the official [MediaEval 2025 website](https://multimediaeval.github.io/editions/2025/tasks/newsimages) for the full task description.
+
+Please see the official [MediaEval 2025 website](https://multimediaeval.github.io/editions/2025/tasks/newsimages) for the full task description and event registration.
 
 ## Data Description
 
@@ -62,7 +63,6 @@ This applies to both generated and retrieved images. If you generate the images 
 
 ## Deadline Summary
 
-* Data release: May 23
 * Item pool announcement: August 4 (together with info on the submission platform)
 * Runs due: September 10
 * Paper submission: October 8

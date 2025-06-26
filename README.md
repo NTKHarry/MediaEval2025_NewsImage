@@ -3,9 +3,9 @@
 ## Task Description
 
 Participants are given a collection of 8,500 news articles with images (the article text is in English, from [GDELT](https://www.gdeltproject.org)).
-Given a randomly selected article, the goal is to build a pipeline for (1)) image retrieval or (2) image generation to provide a fitting image recommendation for a given news article.
-Depending on the number of participants, the final evaluation event may only make use of a subset of items.
-The article pool relevant for this final evaluation will be communicated separately, together with the information on where to submit your results (see deadlines below).
+Given a randomly selected article, the goal is to build a pipeline for (1) image retrieval or (2) image generation to provide a fitting image recommendation for a given news article.
+Depending on the number of participants, the final evaluation event may only make use of subsets of the overall item pool.
+The relevant article IDs for the final evaluation will be communicated separately via email to all **registered groups**, together with the information on where to submit your results (see deadlines below).
 Please see the official [MediaEval 2025 website](https://multimediaeval.github.io/editions/2025/tasks/newsimages) for the full task description.
 
 ## Data Description
@@ -28,17 +28,34 @@ The name of each JPG file corresponds to the image ID associated with each news 
 
 You must provide a ZIP file [group_name].zip that is organized as follows:
 
-[group_name] / [approach_name] / [image_id] + _ + [group_name] + _ + [approach_name].png
+[group_name] / ["RET"|"GEN"] + _ + [approach_name] + _ + ["LARGE"|"SMALL"]/ [image_id] + _ + [group_name] + _ + [approach_name].png
 
-Your submission should include as **many** image recommendations for the list of requested article IDs as possible.
+Use the group name with which you have registered for the task.
+For each submitted approach/run, please provide a **unique name**.
+Use the prefix a to indicate the type ("RET" for retrieval approach, "GEN" for image generation) and a suffix for the subtask ("LARGE" covering all images and "SMALL" the pre-defined subset).
+Your submission can include multiple approaches, but they all need to be properly documented in the [working notes paper](https://multimediaeval.github.io/editions/2025).
+
+Each approach must include **precisely one** image recommendation for a given image ID.
+It should cover and include **as many** many images as possible.
+In case there is no image recommendation for a requested ID, this one image entry gets automatically assigned the lowest "image fit" score in the evaluation.
 
 Example submission for the group 'UnstableOsmosis':
 
     UnstableOsmosis.zip
-	|_ FLUX
+	|_ GEN_FLUX_SMALL
 	|  |_ 37FC359AB91C0DC6D21D270AED0C87E3_UnstableOsmosis_FLUX.png
 	|  |_ …
+	|_ GEN_SD_LARGE
+	|  |_ 37FC359AB91C0DC6D21D270AED0C87E3_UnstableOsmosis_SD.png
+	|  |_ …
 	|_ …
+
+You are requested to provide **at least one** approach for both the large and small subtasks.
+When creating a submission for the large subtask (e.g., "GEN_SD_LARGE"), please include/keep the image recommendation that this approach makes for IDs that are in the small subtask.
+
+If you do not want to make a separate submission for the small challenge subtask, you can simply create a copy of the submissions for the large task, omitting any irrelevant IDs, and changing only the suffix (e.g., "GEN_SD_SMALL" is a based on "GEN_SD_LARGE" but only includes recommendations for IDs of the small subtask).
+Please note that approach names between the small and large subtasks cannot be shared unless it is precisely the same approach (i.e., the same image recommendations).
+If there are small variations between the two, you need to give the approach a new name.
 
 The image format must be PNG, with target dimensions of 460x260 pixels (i.e., landscape orientation).
 This applies to both generated and retrieved images. If you generate the images with tools like ComfyUI and you edit them afterwards (e.g., for cropping), make sure the workflow **remains** embedded.

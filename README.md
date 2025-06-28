@@ -34,7 +34,7 @@ You must provide a ZIP file [group_name].zip that is organized as follows:
 Use the group name with which you have registered for the task.
 For each submitted approach/run, please provide a **unique name**.
 Use the prefix a to indicate the type ("RET" for retrieval approach, "GEN" for image generation) and a suffix for the subtask ("LARGE" covering all images and "SMALL" the pre-defined subset).
-Your submission can include multiple approaches, but they all need to be properly documented in the [working notes paper](https://drive.google.com/drive/folders/1DNhxIeACfsmg6rrdgQZ22BbRtYE8ioYI).
+Your submission can include multiple approaches.
 
 Each approach must include **precisely one** image recommendation for a given image ID.
 It should cover and include **as many** many images as possible.
@@ -61,11 +61,39 @@ If there are small variations between the two, you need to give the approach a n
 The image format must be PNG, with target dimensions of 460x260 pixels (i.e., landscape orientation).
 This applies to both generated and retrieved images. If you generate the images with tools like ComfyUI and you edit them afterwards (e.g., for cropping), make sure the workflow **remains** embedded.
 
+## Working Notes Paper
+
+As part of the challenge submission, each team is required to write a separate **Working Notes Paper** that documents and outlines their approach.
+Please look at the [online paper template](https://drive.google.com/drive/folders/1DNhxIeACfsmg6rrdgQZ22BbRtYE8ioYI) for more information.
+We ask each group to include and refer to the following papers:
+
+[NewsImages in MediaEval 2025 – Comparing Image Retrieval and Generation for News Articles](https://github.com/Informfully/Challenges/documents/newsimages_task_overview_paper.pdf), Heitz *et al.*, Working Notes Proceedings of the MediaEval 2023 Workshop, 2025.
+
+  ```
+  @inproceedings{heitz2025newsimages,
+    title = {NewsImages in MediaEval 2025 – Comparing Image Retrieval and Generation for News Articles},
+    author = {Lucien Heitz and Luca Rossetto and Benjamin Kille and Andreas Lommatzsch and Mehdi Elahi and Duc-Tien Dang-Nguyen},
+    booktitle = {Working Notes Proceedings of the MediaEval 2025 Workshop},
+    year = {2025}
+  }
+  ```
+
+[An Empirical Exploration of Perceived Similarity between News Article Texts and Images](https://ceur-ws.org/Vol-3658/paper8.pdf), Heitz *et al.*, Working Notes Proceedings of the MediaEval 2023 Workshop, 2024.
+
+  ```
+  @inproceedings{heitz2024empirical,
+    title = {An Empirical Exploration of Perceived Similarity between News Article Texts and Images},
+    author = {Lucien Heitz and Abraham Bernstein and Luca Rossetto},
+    booktitle = {Working Notes Proceedings of the MediaEval 2023 Workshop},
+    year = {2024}
+  }
+  ```
+
 ## Deadline Summary
 
 * Item pool announcement: August 4 (together with info on the submission platform)
 * Runs due: September 10
-* Paper submission: October 8
+* Working Notes Paper submission: October 8
 * MediaEval workshop: October 25-26 (attendance required, in-person or online)
 
 ## Resources

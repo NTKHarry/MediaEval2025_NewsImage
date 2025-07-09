@@ -4,7 +4,7 @@
 
 Participants are given a collection of 8,500 news articles with images (the article text is in English, from [GDELT](https://www.gdeltproject.org).
 Given a randomly selected article, the goal is to build a pipeline for (1) image retrieval or (2) image generation to provide a fitting image recommendation for a given news article.
-The final evaluation event may only make use of subsets of the overall item pool.
+The final evaluation event may only make use of subsets of the overall item pool that was shared with participating teams (there will be no new articles introduced).
 The relevant article IDs for the final evaluation will be communicated separately via email to all **registered groups**, together with the information on where to submit your results (see deadlines below).
 
 Please see the official [MediaEval 2025 website](https://multimediaeval.github.io/editions/2025/tasks/newsimages) for the full task description and event registration.
@@ -62,6 +62,14 @@ If there are small variations between the two, you need to give the approach a n
 The image format must be PNG, with target dimensions of 460x260 pixels (landscape orientation).
 This applies to both generated and retrieved images.
 If you generate the images with tools like ComfyUI and you edit them afterwards (e.g., for cropping), make sure the workflow **remains** embedded.
+
+Note on using original article images:
+The final evaluation will make use of the dataset shared with participants.
+Therefore, the original images for all articles are known.
+It is not forbidden to leverage them for creating the retrieval/generation pipeline.
+However, in our [previous study](https://ceur-ws.org/Vol-3658/paper8.pdf), we found that the original images often have a lower image fit than retrieved or generated ones.
+And it is this image fit that will decide the winner in the final evaluation event.
+Being able to retrieve the original image or generate something that looks similar is not relevant.
 
 ## Working Notes Paper
 

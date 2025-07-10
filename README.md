@@ -4,7 +4,7 @@
 
 Participants are given a collection of 8,500 news articles with images (the article text is in English, from [GDELT](https://www.gdeltproject.org).
 Given a randomly selected article, the goal is to build a pipeline for (1) image retrieval or (2) image generation to provide a fitting image recommendation for a given news article.
-The final evaluation event may only make use of subsets of the overall item pool that was shared with participating teams (there will be no new articles introduced).
+The final evaluation event may only make use of subsets of the overall item pool that was shared with participating teams.
 The relevant article IDs for the final evaluation will be communicated separately via email to all **registered groups**, together with the information on where to submit your results (see deadlines below).
 
 Please see the official [MediaEval 2025 website](https://multimediaeval.github.io/editions/2025/tasks/newsimages) for the full task description and event registration.
@@ -29,7 +29,7 @@ The name of each JPG file corresponds to the image ID associated with each news 
 
 You must provide a ZIP file [group_name].zip that is structured as follows:
 
-[group_name] / ["RET"|"GEN"] + _ + [approach_name] + _ + ["LARGE"|"SMALL"]/ [image_id] + _ + [group_name] + _ + [approach_name].png
+[group_name] / ["RET"|"GEN"] + _ + [approach_name] + _ + ["LARGE"|"SMALL"]/ [article_id] + _ + [group_name] + _ + [approach_name].png
 
 Use the group name with which you have registered for the task.
 For each submitted approach/run, please provide a **unique name**.
@@ -51,7 +51,9 @@ Example submission for the group 'UnstableOsmosis':
 	|  |_ …
 	|_ …
 
-Image retrieval and generation have two subtasks each (for details, see the task [overview paper](https://github.com/Informfully/Challenges/blob/main/documents/newsimages_task_overview_paper.pdf)).
+Image retrieval and generation have two subtasks each, a small one (using pre-determined articles IDs that will be communicated in advance) and a large one (using randomly selected articles IDs).
+The articles in both the small and large task are part of the dataset shared with participants.
+For more details, please see the task [overview paper](https://github.com/Informfully/Challenges/blob/main/documents/newsimages_task_overview_paper.pdf).
 You are requested to provide **at least one** approach for both the large and the small subtasks.
 When creating a submission for the large subtask (e.g., "GEN_SD_LARGE"), please include/keep the image recommendation that this approach makes for IDs that are in the small subtask.
 

@@ -27,6 +27,12 @@ The name of each JPG file corresponds to the image ID associated with each news 
 
 ## Expected Submission
 
+Image retrieval and generation have two subtasks each, a small one (using pre-determined article IDs that will be communicated in advance) and a large one (using randomly selected article IDs).
+The articles in both the small and large tasks are part of the dataset shared with participants.
+For more details, please see the task [overview paper](https://github.com/Informfully/Challenges/blob/main/documents/newsimages_task_overview_paper.pdf).
+You are requested to provide **at least one** approach for both the large and the small subtasks.
+When creating a submission for the large subtask (e.g., "GEN_SD_LARGE"), please include/keep the image recommendation that this approach makes for IDs that are in the small subtask.
+
 You must provide a ZIP file [group_name].zip that is structured as follows:
 
 [group_name] / ["RET"|"GEN"] + _ + [approach_name] + _ + ["LARGE"|"SMALL"]/ [article_id] + _ + [group_name] + _ + [approach_name].png
@@ -51,13 +57,7 @@ Example submission for the group 'UnstableOsmosis':
 	|  |_ …
 	|_ …
 
-Image retrieval and generation have two subtasks each, a small one (using pre-determined articles IDs that will be communicated in advance) and a large one (using randomly selected articles IDs).
-The articles in both the small and large task are part of the dataset shared with participants.
-For more details, please see the task [overview paper](https://github.com/Informfully/Challenges/blob/main/documents/newsimages_task_overview_paper.pdf).
-You are requested to provide **at least one** approach for both the large and the small subtasks.
-When creating a submission for the large subtask (e.g., "GEN_SD_LARGE"), please include/keep the image recommendation that this approach makes for IDs that are in the small subtask.
-
-If you do not want to make a separate submission for the small challenge subtask, you can simply create a copy of the submissions for the large task, omitting any irrelevant IDs, by changing only suffix (e.g., "GEN_SD_SMALL" is a based on "GEN_SD_LARGE" but only includes recommendations for IDs of the small subtask).
+If you do not want to make a separate submission for the small challenge subtask, you can simply create a copy of the submissions for the large task, omitting any irrelevant IDs, by changing only the suffix (e.g., "GEN_SD_SMALL" is based on "GEN_SD_LARGE" but only includes recommendations for IDs of the small subtask).
 Please note that approach names between the small and large subtasks cannot be shared unless it is precisely the same approach (i.e., the same image recommendations).
 If there are small variations between the two, you need to give the approach a new name and clearly document this.
 

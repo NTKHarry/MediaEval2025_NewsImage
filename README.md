@@ -103,7 +103,6 @@ We ask each group to include and refer to the following papers:
 
 ## Deadline Summary
 
-* Item pool announcement: August 4 (together with info on the submission platform)
 * Runs due: September 10
 * Working Notes Paper submission: October 8
 * MediaEval workshop: October 25-26 (attendance required, in-person or online)

@@ -1,15 +1,16 @@
 # NewsImages at MediaEval 2025
 
-## Task Description
+README file for the data overview and expected submission of the NewsImages Challenge at MediaEval 2025.
+Please see the official [MediaEval 2025 website](https://multimediaeval.github.io/editions/2025/tasks/newsimages) for the full task description and the event registration.
+
+## Task Summary
 
 Participants are given a collection of 8,500 news articles with images (the article text is in English, from [GDELT](https://www.gdeltproject.org).
 Given a randomly selected article, the goal is to build a pipeline for (1) image retrieval or (2) image generation to provide a fitting image recommendation for a given news article.
 The final evaluation event may only make use of subsets of the overall item pool that was shared with participating teams.
 The relevant article IDs for the final evaluation will be communicated separately via email to all **registered groups**, together with the information on where to submit your results (see deadlines below).
 
-Please see the official [MediaEval 2025 website](https://multimediaeval.github.io/editions/2025/tasks/newsimages) for the full task description and event registration.
-
-## Data Description
+## Data Overview
 
 The challenge data contains a CSV with the following data on news articles:
 
@@ -65,7 +66,11 @@ The image format must be PNG, with target dimensions of 460x260 pixels (landscap
 This applies to both generated and retrieved images.
 If you generate the images with tools like ComfyUI and you edit them afterwards (e.g., for cropping), make sure the workflow **remains** embedded.
 
-Note on using original article images:
+You will need to hand in your submissions by the deadline indicated below.
+Do that by sending an email to the address that shared the dataset download link with you.
+It must include 1) your group name, 2) a link to download your image submissions, and 3) links to the documentation and components of your workflow (e.g., your GitHub repository).
+
+**Note on using original article images:**
 The final evaluation will make use of the dataset shared with participants.
 Therefore, the original images for all articles are known.
 It is not forbidden to leverage them for creating the retrieval/generation pipeline.
@@ -103,8 +108,8 @@ We ask each group to include and refer to the following papers:
 
 ## Deadline Summary
 
-* Runs due: September 10
-* Working Notes Paper submission: October 8
+* Runs due: September 10 (AoE)
+* Working Notes Paper submission: October 8 (AoE)
 * MediaEval workshop: October 25-26 (attendance required, in-person or online)
 
 ## Resources

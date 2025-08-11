@@ -5,7 +5,7 @@ Please see the official [MediaEval 2025 website](https://multimediaeval.github.i
 
 ## Task Summary
 
-Participants are given a collection of 8,500 news articles with images (the article text is in English, from [GDELT](https://www.gdeltproject.org).
+Upon successful registration, the participants are given a collection of 8,500 news articles with images (the article text is in English, from [GDELT](https://www.gdeltproject.org).
 Given a randomly selected article, the goal is to build a pipeline for (1) image retrieval or (2) image generation to provide a fitting image recommendation for a given news article.
 The final evaluation event may only make use of subsets of the overall item pool that was shared with participating teams.
 The relevant article IDs for the final evaluation will be communicated separately via email to all **registered groups**, together with the information on where to submit your results (see deadlines below).

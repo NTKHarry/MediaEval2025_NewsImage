@@ -6,8 +6,10 @@ Please see the official [MediaEval 2025 website](https://multimediaeval.github.i
 ## Task Summary
 
 Upon successful registration, the participants are given a collection of 8,500 news articles with images (the article text is in English, from [GDELT](https://www.gdeltproject.org).
-Given a randomly selected article, the goal is to build a pipeline for (1) image retrieval or (2) image generation to provide a fitting image recommendation for a given news article.
-The final evaluation event may only make use of subsets of the overall item pool that was shared with participating teams.
+Given a randomly selected article, the goal is to build a pipeline for (1) image retrieval or (2) image generation to provide a **fitting** image recommendation for a given news article.
+There will be a crowdsourced online event where all participating teams take part in ranking the submitted image recommendations.
+The winning team is determined by the highest average image rank from among the article pool.
+The final evaluation event may only make use of subsets of the overall pool that was shared with participating teams.
 The relevant article IDs for the final evaluation will be communicated separately via email to all **registered groups**, together with the information on where to submit your results (see deadlines below).
 
 ## Data Overview
@@ -68,7 +70,13 @@ If you generate the images with tools like ComfyUI and you edit them afterwards 
 
 You will need to hand in your submissions by the deadline indicated below.
 Do that by sending an email to the address that shared the dataset download link with you.
-It must include 1) your group name, 2) a link to download your image submissions, and 3) links to the documentation and components of your workflow (e.g., your GitHub repository).
+It must include (1) your group name, (2) a link to download your image submissions, and (3) links to the documentation and components of your workflow (e.g., your GitHub repository).
+
+During the evaluation, participating teams rate the image recommendations of other teams.
+To do that, they are being presented with a news headline and two image recommendations.
+They then need to select which image is more fitting.
+These ratings are used to calculate an overall ranking of images for each article.
+The average rank of team submissions across the featured item pool then determines the overall winner of the challenge.
 
 **Note on using original article images:**
 The final evaluation will make use of the dataset shared with participants.

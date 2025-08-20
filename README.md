@@ -117,7 +117,7 @@ We ask each group to include and refer to the following papers:
 ## Deadline Summary
 
 * Runs due: September 10 (AoE)
-* Working Notes Paper submission: October 8 (AoE)
+* Working Notes Paper submission: October 8 (AoE, feedback within one week, camera-ready revision due within two weeks)
 * MediaEval workshop: October 25-26 (attendance required, in-person or online)
 
 ## Resources

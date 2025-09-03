@@ -17,7 +17,7 @@ The relevant article IDs for the final evaluation will be communicated separatel
 The challenge data contains a CSV with the following data on news articles:
 
 | Attribute | Description |
-| - | -|
+| - | - |
 | article_id | ID of news article. |
 | article_url | Original URL of the news article. |
 | article_title | Title of the news article (may include lead). |
@@ -46,8 +46,9 @@ Use the prefix a to indicate the type ("RET" for retrieval approach, "GEN" for i
 Your submission can include multiple approaches.
 
 Each approach must include **precisely one** image recommendation for a given image ID.
-It should cover and include **as many** many images as possible.
-In case there is no image recommendation for a requested ID, this one image entry gets automatically assigned the lowest "image fit" score in the evaluation.
+You are allowed to give priority to generating/retrieving images for the 30 articles we pre-selected for the small task (see “subset.csv” in the dataset). **This part must be complete.**
+If you do not manage to provide 8,500 recommendations for the large task, simply share **as many** many images as possible.
+But in case there is the final evaluation set contains an image ID for which you have no recommendation, then this entry gets assigned the lowest rating score.
 
 Example submission for the group 'UnstableOsmosis':
 
@@ -71,6 +72,8 @@ If you generate the images with tools like ComfyUI and you edit them afterwards 
 You will need to hand in your submissions by the deadline indicated below.
 Do that by sending an email to the address that shared the dataset download link with you.
 It must include (1) your group name, (2) a link to download your image submissions, and (3) links to the documentation and components of your workflow (e.g., your GitHub repository).
+
+## Online Evaluation
 
 During the evaluation, participating teams rate the image recommendations of other teams.
 To do that, they are being presented with a news headline and two image recommendations.

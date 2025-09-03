@@ -73,14 +73,6 @@ You will need to hand in your submissions by the deadline indicated below.
 Do that by sending an email to the address that shared the dataset download link with you.
 It must include (1) your group name, (2) a link to download your image submissions, and (3) links to the documentation and components of your workflow (e.g., your GitHub repository).
 
-## Online Evaluation
-
-During the evaluation, participating teams rate the image recommendations of other teams.
-To do that, they are being presented with a news headline and two image recommendations.
-They then need to select which image is more fitting.
-These ratings are used to calculate an overall ranking of images for each article.
-The average rank of team submissions across the featured item pool then determines the overall winner of the challenge.
-
 **Note on using original article images:**
 The final evaluation will make use of the dataset shared with participants.
 Therefore, the original images for all articles are known.
@@ -88,6 +80,15 @@ It is not forbidden to leverage them for creating the retrieval/generation pipel
 However, in our [previous study](https://ceur-ws.org/Vol-3658/paper8.pdf), we found that the original images often have a lower image fit than retrieved or generated ones.
 And it is this image fit that will decide the winner in the final evaluation event.
 Being able to retrieve the original image or generate something that looks similar is not relevant.
+
+## Online Evaluation
+
+Taking part in the online evaluation event is mandatory.
+During the evaluation, participating teams rate the image recommendations of other teams.
+To do that, they are being presented with a news headline and two image recommendations.
+They then need to select which image is more fitting.
+These ratings are used to calculate an overall ranking of images for each article.
+The average rank of team submissions across the featured item pool then determines the overall winner of the challenge.
 
 ## Working Notes Paper
 

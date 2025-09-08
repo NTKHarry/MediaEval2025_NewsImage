@@ -120,9 +120,19 @@ We ask each group to include and refer to the following papers:
 
 ## Deadline Summary
 
-* Runs due: September 10 (AoE)
-* Working Notes Paper submission: October 8 (AoE, feedback within one week, camera-ready revision due within two weeks)
-* MediaEval workshop: October 25-26 (attendance required, in-person or online)
+* Runs due: September 10 (AoE),
+* Online evaluation: September 17-24 (online).
+* Working Notes Paper submission: October 8 (AoE).*
+* MediaEval workshop: October 25-26 (attendance required, in-person or online).
+
+(*) We provide you with a review/feedback for your paper within one week of submission.
+Afterwards, you then have another week to pepare the camera-ready revision (exact deadlines will be communicated by the MediaEval organizers).
+Please note that your paper should include a results section.
+It is based on your performance in the online evaluation.
+The necessary information for this part will be forwarded to you after the evaluation event has concluded.
+The Working Notes Paper **must** describe the workflows for your submissions.
+It **may** include complementary and/or alternative approaches that you tested.
+We also encourage all teams to write a separate "Quest for Insight" paper if there are interesting findings you would like to share and discuss with (for more information, see "Quest for Insight" in our challenge overview: <https://multimediaeval.github.io/editions/2025/tasks/newsimages>).
 
 ## Resources
 

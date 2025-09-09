@@ -26,7 +26,7 @@ The challenge data contains a CSV with the following data on news articles:
 | image_url | Original URL of the news image. |
 
 Furthermore, a folder 'newsimages' containing a copy of all news images is included.
-The name of each JPG file corresponds to the image ID associated with each news article.
+The name of each JPG file corresponds to the aricle ID associated with each news article.
 
 ## Expected Submission
 
@@ -45,10 +45,10 @@ For each submitted approach/run, please provide a **unique name**.
 Use the prefix a to indicate the type ("RET" for retrieval approach, "GEN" for image generation) and a suffix for the subtask ("LARGE" covering all images and "SMALL" the pre-defined subset).
 Your submission can include multiple approaches.
 
-Each approach must include **precisely one** image recommendation for a given image ID.
+Each approach must include **precisely one** image recommendation for a given article ID.
 You are allowed to give priority to generating/retrieving images for the 30 articles we pre-selected for the small task (see “subset.csv” in the dataset). **This part must be complete.**
 If you do not manage to provide 8,500 recommendations for the large task, simply share **as many** many images as possible.
-But in case there is the final evaluation set contains an image ID for which you have no recommendation, then this entry gets assigned the lowest rating score.
+But in case there is the final evaluation set contains an article ID for which you have no recommendation, this entry gets assigned the lowest rating score.
 
 Example submission for the group 'UnstableOsmosis':
 

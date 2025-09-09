@@ -54,10 +54,10 @@ Example submission for the group 'UnstableOsmosis':
 
     UnstableOsmosis.zip
 	|_ GEN_FLUX_SMALL
-	|  |_ 37FC359AB91C0DC6D21D270AED0C87E3_UnstableOsmosis_FLUX.png
+	|  |_ 117_UnstableOsmosis_FLUX.png
 	|  |_ …
 	|_ GEN_SD_LARGE
-	|  |_ 37FC359AB91C0DC6D21D270AED0C87E3_UnstableOsmosis_SD.png
+	|  |_ 117_UnstableOsmosis_SD.png
 	|  |_ …
 	|_ …
 

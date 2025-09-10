@@ -50,7 +50,9 @@ You are allowed to give priority to generating/retrieving images for the 30 arti
 If you do not manage to provide 8,500 recommendations for the large task, simply share **as many** many images as possible.
 But in case there is the final evaluation set contains an article ID for which you have no recommendation, this entry gets assigned the lowest rating score.
 
-Example submission for the group 'UnstableOsmosis':
+### Example Group Submission
+
+Below is the folder structure of the an example ZIP files for the group 'UnstableOsmosis':
 
     UnstableOsmosis.zip
 	|_ GEN_FLUX_SMALL
@@ -65,17 +67,22 @@ If you do not want to make a separate submission for the small challenge subtask
 Please note that approach names between the small and large subtasks cannot be shared unless it is precisely the same approach (i.e., the same image recommendations).
 If there are small variations between the two, you need to give the approach a new name and clearly document this.
 
+### Required Image Format
+
 The image format must be PNG, with target dimensions of 460x260 pixels (landscape orientation).
 This applies to both generated and retrieved images.
 If you generate the images with tools like ComfyUI and you edit them afterwards (e.g., for cropping), make sure the workflow **remains** embedded.
 
+### Complete Email Submission
+
 You will need to hand in your submissions by the deadline indicated below.
 Do that by sending an email to the address that shared the dataset download link with you.
 It must include (1) your group name, (2) a link to download your image submissions, and (3) links to the documentation and components of your workflow (e.g., your GitHub repository).
-The documentation and overview of the workflow can be well-documented notebook or scripts.
-Please note that this is something separate from the Working Notes Paper.
+The documentation and overview of the workflow can be, e.g., well-documented notebook or scripts.
+(Please note that this is something separate from the Working Notes Paper.)
 
-**Note on using original article images:**
+### Using Original Images
+
 The final evaluation will make use of the dataset shared with participants.
 Therefore, the original images for all articles are known.
 It is not forbidden to leverage them for creating the retrieval/generation pipeline.

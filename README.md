@@ -77,8 +77,7 @@ If you generate the images with tools like ComfyUI and you edit them afterwards 
 
 You will need to hand in your submissions by the deadline indicated below.
 Do that by sending an email to the address that shared the dataset download link with you.
-It must include (1) your group name, (2) a link to download your image submissions, and (3) links to the documentation and components of your workflow (e.g., your GitHub repository).
-The documentation and overview of the workflow can be, e.g., well-documented notebook or scripts.
+It must include (1) your group name, (2) a link to download your image submissions, and (3) links to the documented code of your workflow (e.g., a link to a GitHub repository with a notebook and/or a collection of scripts).
 (Please note that this is something separate from the Working Notes Paper.)
 
 ### Using Original Images

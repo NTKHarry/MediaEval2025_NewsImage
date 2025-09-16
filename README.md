@@ -7,8 +7,8 @@ Please see the official [MediaEval 2025 website](https://multimediaeval.github.i
 
 Upon successful registration, the participants are given a collection of 8,500 news articles with images (the article text is in English, from [GDELT](https://www.gdeltproject.org).
 Given a randomly selected article, the goal is to build a pipeline for (1) image retrieval or (2) image generation to provide a **fitting** image recommendation for a given news article.
-There will be a crowdsourced online event where all participating teams take part in ranking the submitted image recommendations.
-The winning team is determined by the highest average image rank from among the article pool.
+There will be a crowdsourced online event where all participating teams take part in rating the submitted image recommendations using a 5-point Likert scale.
+The winning team is determined by the **highest average image rating** for the articles within the the selected article pool.
 The final evaluation event may only make use of subsets of the overall pool that was shared with participating teams.
 The relevant article IDs for the final evaluation will be communicated separately via email to all **registered groups**, together with the information on where to submit your results (see deadlines below).
 

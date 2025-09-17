@@ -139,6 +139,7 @@ Please note that your paper should include a results section.
 It is based on your performance in the online evaluation.
 The necessary information for this part will be forwarded to you after the evaluation event has concluded.
 The Working Notes Paper **must** describe the workflows for your submissions.
+Please put your code in the "newsimages25" folder in this directory and create separate folders for the image generation ("GEN") and image retrieval ("RET") wokflow (see the example shared in the folder).
 It **may** include complementary and/or alternative approaches that you tested.
 We also encourage all teams to write a separate "Quest for Insight" paper if there are interesting findings you would like to share and discuss with (for more information, see "Quest for Insight" in our challenge overview: <https://multimediaeval.github.io/editions/2025/tasks/newsimages>).
 

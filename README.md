@@ -38,7 +38,7 @@ When creating a submission for the large subtask (e.g., "GEN_SD_LARGE"), please 
 
 You must provide a ZIP file [group_name].zip that is structured as follows:
 
-[group_name] / ["RET"|"GEN"] + _ + [approach_name] + _ + ["LARGE"|"SMALL"]/ [article_id] + _ + [group_name] + _ + [approach_name].png
+[group_name] / ["RET"|"GEN"] + _ + [approach_name] + _ + ["LARGE"|"SMALL"] / [article_id] + _ + [group_name] + _ + [approach_name].png
 
 Use the group name with which you have registered for the task.
 For each submitted approach/run, please provide a **unique name**.

@@ -32,7 +32,7 @@ The name of each JPG file corresponds to the aricle ID associated with each news
 
 Image retrieval and generation have two subtasks each, a small one (using pre-determined article IDs that will be communicated in advance) and a large one (using randomly selected article IDs).
 The articles in both the small and large tasks are part of the dataset shared with participants.
-For more details, please see the task [overview paper](https://github.com/Informfully/Challenges/blob/main/documents/newsimages_task_overview_paper.pdf).
+For more details, please see the task [overview paper](https://github.com/Informfully/Challenges/blob/main/organization/newsimages_task_overview_paper.pdf).
 You are requested to provide **at least one** approach for both the large and the small subtasks.
 When creating a submission for the large subtask (e.g., "GEN_SD_LARGE"), please include/keep the image recommendation that this approach makes for IDs that are in the small subtask.
 
@@ -55,13 +55,13 @@ But in case there is the final evaluation set contains an article ID for which y
 Below is the folder structure of the an example ZIP files for the group 'UnstableOsmosis':
 
     UnstableOsmosis.zip
-	|_ GEN_FLUX_SMALL
-	|  |_ 117_UnstableOsmosis_FLUX.png
-	|  |_ …
-	|_ GEN_SD_LARGE
-	|  |_ 117_UnstableOsmosis_SD.png
-	|  |_ …
-	|_ …
+    |_ GEN_FLUX_SMALL
+    |  |_ 117_UnstableOsmosis_FLUX.png
+    |  |_ …
+    |_ GEN_SD_LARGE
+    |  |_ 117_UnstableOsmosis_SD.png
+    |  |_ …
+    |_ …
 
 If you do not want to make a separate submission for the small challenge subtask, you can simply create a copy of the submissions for the large task, omitting any irrelevant IDs, by changing only the suffix (e.g., "GEN_SD_SMALL" is based on "GEN_SD_LARGE" but only includes recommendations for IDs of the small subtask).
 Please note that approach names between the small and large subtasks cannot be shared unless it is precisely the same approach (i.e., the same image recommendations).
@@ -128,10 +128,10 @@ We ask each group to include and refer to the following papers:
 
 ## Deadline Summary
 
-* Runs due: September 10 (AoE),
-* Online evaluation: September 17-24 (online).
-* Working Notes Paper submission: October 8 (AoE).*
-* MediaEval workshop: October 25-26 (attendance required, in-person or online).
+- Runs due: September 10 (AoE),
+- Online evaluation: September 17-24 (online).
+- Working Notes Paper submission: October 8 (AoE).*
+- MediaEval workshop: October 25-26 (attendance required, in-person or online).
 
 (*) We provide you with a review/feedback for your paper within one week of submission.
 Afterwards, you then have another week to pepare the camera-ready revision (exact deadlines will be communicated by the MediaEval organizers).
@@ -145,6 +145,6 @@ We also encourage all teams to write a separate "Quest for Insight" paper if the
 
 ## Resources
 
-* [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
-* [WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
-* [Yahoo-Flickr Creative Commons 100 Million (YFCC100M)](https://www.multimediacommons.org)
+- [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
+- [WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+- [Yahoo-Flickr Creative Commons 100 Million (YFCC100M)](https://www.multimediacommons.org)

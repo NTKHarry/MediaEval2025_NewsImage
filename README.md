@@ -32,7 +32,7 @@ The name of each JPG file corresponds to the aricle ID associated with each news
 
 Image retrieval and generation have two subtasks each, a small one (using pre-determined article IDs that will be communicated in advance) and a large one (using randomly selected article IDs).
 The articles in both the small and large tasks are part of the dataset shared with participants.
-For more details, please see the task [overview paper](https://github.com/Informfully/Challenges/blob/main/organization/newsimages_task_overview_paper.pdf).
+For more details, please see the task [overview paper](https://github.com/Informfully/Challenges/blob/main/newsimages25/documents/newsimages_task_overview_paper.pdf).
 You are requested to provide **at least one** approach for both the large and the small subtasks.
 When creating a submission for the large subtask (e.g., "GEN_SD_LARGE"), please include/keep the image recommendation that this approach makes for IDs that are in the small subtask.
 

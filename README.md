@@ -32,7 +32,7 @@ The name of each JPG file corresponds to the aricle ID associated with each news
 
 Image retrieval and generation have two subtasks each, a small one (using pre-determined article IDs that will be communicated in advance) and a large one (using randomly selected article IDs).
 The articles in both the small and large tasks are part of the dataset shared with participants.
-For more details, please see the task [overview paper](https://github.com/Informfully/Challenges/blob/main/newsimages25/documents/newsimages_task_overview_paper.pdf).
+For more details, please see the [Task Overview Paper](https://github.com/Informfully/Challenges/blob/main/newsimages25/documents/newsimages_task_overview_paper.pdf).
 You are requested to provide **at least one** approach for both the large and the small subtasks.
 When creating a submission for the large subtask (e.g., "GEN_SD_LARGE"), please include/keep the image recommendation that this approach makes for IDs that are in the small subtask.
 
@@ -104,7 +104,7 @@ As part of the challenge submission, each team is required to write a separate *
 Please look at the [online paper template](https://drive.google.com/drive/folders/1DNhxIeACfsmg6rrdgQZ22BbRtYE8ioYI) for more information.
 We ask each group to include and refer to the following papers:
 
-- [NewsImages in MediaEval 2025 – Comparing Image Retrieval and Generation for News Articles](https://github.com/Informfully/Challenges/blob/main/documents/newsimages_task_overview_paper.pdf), Heitz *et al.*, Working Notes Proceedings of the MediaEval 2025 Workshop, 2025.
+* [NewsImages in MediaEval 2025 – Comparing Image Retrieval and Generation for News Articles](https://github.com/Informfully/Challenges/blob/main/documents/newsimages_task_overview_paper.pdf), Heitz *et al.*, Working Notes Proceedings of the MediaEval 2025 Workshop, 2025.
 
   ```tex
   @inproceedings{heitz2025newsimages,
@@ -115,7 +115,7 @@ We ask each group to include and refer to the following papers:
   }
   ```
 
-- [An Empirical Exploration of Perceived Similarity between News Article Texts and Images](https://ceur-ws.org/Vol-3658/paper8.pdf), Heitz *et al.*, Working Notes Proceedings of the MediaEval 2023 Workshop, 2024.
+* [An Empirical Exploration of Perceived Similarity between News Article Texts and Images](https://ceur-ws.org/Vol-3658/paper8.pdf), Heitz *et al.*, Working Notes Proceedings of the MediaEval 2023 Workshop, 2024.
 
   ```tex
   @inproceedings{heitz2024empirical,
@@ -128,10 +128,10 @@ We ask each group to include and refer to the following papers:
 
 ## Deadline Summary
 
-- Runs due: September 10 (AoE),
-- Online evaluation: September 17-24 (online).
-- Working Notes Paper submission: October 8 (AoE).*
-- MediaEval workshop: October 25-26 (attendance required, in-person or online).
+* Runs due: September 10 (AoE),
+* Online evaluation: September 17-24 (online).
+* Working Notes Paper submission: October 8 (AoE).*
+* MediaEval workshop: October 25-26 (attendance required, in-person or online).
 
 (*) We provide you with a review/feedback for your paper within one week of submission.
 Afterwards, you then have another week to pepare the camera-ready revision (exact deadlines will be communicated by the MediaEval organizers).
@@ -145,6 +145,6 @@ We also encourage all teams to write a separate "Quest for Insight" paper if the
 
 ## Resources
 
-- [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
-- [WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
-- [Yahoo-Flickr Creative Commons 100 Million (YFCC100M)](https://www.multimediacommons.org)
+* [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
+* [WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+* [Yahoo-Flickr Creative Commons 100 Million (YFCC100M)](https://www.multimediacommons.org)

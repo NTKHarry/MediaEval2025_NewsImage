@@ -52,7 +52,7 @@ But in case there is the final evaluation set contains an article ID for which y
 
 ### Example Group Submission
 
-Below is the folder structure of the an example ZIP files for the group 'UnstableOsmosis':
+Below is the folder structure of an example ZIP file for the group 'UnstableOsmosis':
 
     UnstableOsmosis.zip
     |_ GEN_FLUX_SMALL
@@ -102,7 +102,11 @@ The average rank of team submissions across the featured item pool then determin
 
 As part of the challenge submission, each team is required to write a separate **Working Notes Paper** that documents and outlines their approach.
 Please look at the [online paper template](https://drive.google.com/drive/folders/1DNhxIeACfsmg6rrdgQZ22BbRtYE8ioYI) for more information.
-We ask each group to include and refer to the following papers:
+
+We encourage open and reproducible science and ask each team to share their codebase and workflows.
+Please use the examples in the [designated folder](https://github.com/Informfully/Challenges/tree/main/newsimages25/workflows) to structure your code and then make a pull request.
+
+Furthermore, we ask each group to include and refer to the following papers in their Working Notes Paper:
 
 * [NewsImages in MediaEval 2025 – Comparing Image Retrieval and Generation for News Articles](https://github.com/Informfully/Challenges/blob/main/documents/newsimages_task_overview_paper.pdf), Heitz *et al.*, Working Notes Proceedings of the MediaEval 2025 Workshop, 2025.
 
@@ -134,12 +138,12 @@ We ask each group to include and refer to the following papers:
 * MediaEval workshop: October 25-26 (attendance required, in-person or online).
 
 (*) We provide you with a review/feedback for your paper within one week of submission.
-Afterwards, you then have another week to pepare the camera-ready revision (exact deadlines will be communicated by the MediaEval organizers).
+Afterwards, you then have another week to prepare the camera-ready revision (exact deadlines will be communicated by the MediaEval organizer).
 Please note that your paper should include a results section.
 It is based on your performance in the online evaluation.
 The necessary information for this part will be forwarded to you after the evaluation event has concluded.
 The Working Notes Paper **must** describe the workflows for your submissions.
-Please put your code in the "newsimages25" folder in this directory and create separate folders for the image generation ("GEN") and image retrieval ("RET") wokflow (see the example shared in the folder).
+Please put your code in the "newsimages25" folder in this directory and create separate folders for the image generation ("GEN") and image retrieval ("RET") workflow (see the example shared in the folder).
 It **may** include complementary and/or alternative approaches that you tested.
 We also encourage all teams to write a separate "Quest for Insight" paper if there are interesting findings you would like to share and discuss with (for more information, see "Quest for Insight" in our challenge overview: <https://multimediaeval.github.io/editions/2025/tasks/newsimages>).
 

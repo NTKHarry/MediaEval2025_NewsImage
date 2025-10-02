@@ -8,7 +8,7 @@ Please see the official [MediaEval 2025 website](https://multimediaeval.github.i
 Upon successful registration, the participants are given a collection of 8,500 news articles with images (the article text is in English, from [GDELT](https://www.gdeltproject.org).
 Given a randomly selected article, the goal is to build a pipeline for (1) image retrieval or (2) image generation to provide a **fitting** image recommendation for a given news article.
 There will be a crowdsourced online event where all participating teams take part in rating the submitted image recommendations using a 5-point Likert scale.
-The winning team is determined by the **highest average image rating** for the articles within the the selected article pool.
+The winning team is determined by the **highest average image rating** for the articles within the selected article pool.
 The final evaluation event may only make use of subsets of the overall pool that was shared with participating teams.
 The relevant article IDs for the final evaluation will be communicated separately via email to all **registered groups**, together with the information on where to submit your results (see deadlines below).
 
@@ -26,7 +26,7 @@ The challenge data contains a CSV with the following data on news articles:
 | image_url | Original URL of the news image. |
 
 Furthermore, a folder 'newsimages' containing a copy of all news images is included.
-The name of each JPG file corresponds to the aricle ID associated with each news article.
+The name of each JPG file corresponds to the article ID associated with each news article.
 
 ## Expected Submission
 
@@ -138,7 +138,7 @@ Furthermore, we ask each group to include and refer to the following papers in t
 * MediaEval workshop: October 25-26 (attendance required, in-person or online).
 
 (*) We provide you with a review/feedback for your paper within one week of submission.
-Afterwards, you then have another week to prepare the camera-ready revision (exact deadlines will be communicated by the MediaEval organizer).
+Afterwards, you then have another week to prepare the camera-ready revision (exact deadlines will be communicated by the MediaEval organizers).
 Please note that your paper should include a results section.
 It is based on your performance in the online evaluation.
 The necessary information for this part will be forwarded to you after the evaluation event has concluded.

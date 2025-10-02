@@ -134,8 +134,9 @@ Furthermore, we ask each group to include and refer to the following papers in t
 
 * Runs due: September 10 (AoE),
 * Online evaluation: September 17-24 (online).
+* Evaluation feedback: October 1 (AoE).
 * Working Notes Paper submission: October 8 (AoE).*
-* MediaEval workshop: October 25-26 (attendance required, in-person or online).
+* MediaEval workshop: October 25-26 (more information on the [registration website](https://multimediaeval.github.io/editions/2025/), in-person or online attendance required).
 
 (*) We provide you with a review/feedback for your paper within one week of submission.
 Afterwards, you then have another week to prepare the camera-ready revision (exact deadlines will be communicated by the MediaEval organizers).

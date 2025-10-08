@@ -132,11 +132,11 @@ Furthermore, we ask each group to include and refer to the following papers in t
 
 ## Deadline Summary
 
-* Runs due: September 10 (AoE),
-* Online evaluation: September 17-24 (online).
-* Evaluation feedback: October 1 (AoE).
-* Working Notes Paper submission: October 8 (AoE).*
-* Review deadline: October 10 (we will notify each team once their paper has been reviewed; please make the necessary changes and upload a camera-ready version within one week)
+* Runs due: September 10 (AoE)
+* Online evaluation: September 17-24 (online)
+* Evaluation feedback: October 1 (AoE)
+* Working Notes Paper submission: October 8*
+* Review deadline: October 10**
 * Camera-ready deadline: October 18 (AoE).
 * MediaEval workshop: October 25-26 (more information on the [registration website](https://multimediaeval.github.io/editions/2025/), in-person or online attendance required).
 
@@ -149,6 +149,7 @@ The Working Notes Paper **must** describe the workflows for your submissions.
 Please put your code in the "newsimages25" folder in this directory and create separate folders for the image generation ("GEN") and image retrieval ("RET") workflow (see the example shared in the folder).
 It **may** include complementary and/or alternative approaches that you tested.
 We also encourage all teams to write a separate "Quest for Insight" paper if there are interesting findings you would like to share and discuss with (for more information, see "Quest for Insight" in our challenge overview: <https://multimediaeval.github.io/editions/2025/tasks/newsimages>).
+(**) We will notify each team once their paper has been reviewed; please make the necessary changes and upload a camera-ready version within one week.
 
 ## Resources
 
